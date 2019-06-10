@@ -1,0 +1,4 @@
+#Thu Mar 23 15:41:49 CST 2017
+eclipse.preferences.version=1
+validator.Checked=WebContent/static/js/common/jquery-1.11.1.min.js,WebContent/WEB-INF/jsp,src/com/codingyun/core/service/impl,src/com/codingyun/core/util/FileOperateUtil.java,WebContent/easyui/jquery.min.js
+validator.Unchecked=

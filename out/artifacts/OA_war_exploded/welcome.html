@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OA-System-Welcome</title>
+    <style>
+        .container-own{
+            min-height: 625px;
+            background-image: url('static/img/index.png');
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            background-size: 100% 100%;
+        }
+        .btn-own{
+            margin-top: 320px;
+            margin-left: 160px;
+            color: white!important;
+            border-color: white!important;
+            background-color: transparent!important;
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
+<body>
+<div class="container-fluid container-own">
+    <button type="button" class="btn btn-default btn-lg btn-own" id="start">get started</button>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="static/js/common/jquery-1.11.1.min.js"></script>
+<script>
+    $("#start").on("click", function () {
+        window.location.href = "/system/login";
+    })
+</script>
