@@ -1,7 +1,7 @@
 # QdYh-Project
 自己练手的项目
 
-基础的SpringMvc + Hibernate框架搭建  
+基础的Spring + SpringMvc + Hibernate框架搭建  
   
 前端使用基本的Bootstrap框架  
   
