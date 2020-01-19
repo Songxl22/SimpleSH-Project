@@ -8,7 +8,7 @@ import java.util.List;
 import com.codingyun.core.dao.LeaveDao;
 import com.codingyun.core.entity.vo.LeaveVo;
 import com.codingyun.core.service.LeaveService;
-import com.sun.istack.internal.logging.Logger;
+import org.apache.log4j.Logger;
 
 @Service
 public class LeaveServiceImpl implements LeaveService{
