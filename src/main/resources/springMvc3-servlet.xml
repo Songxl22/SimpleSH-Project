@@ -37,13 +37,11 @@
 
 
     <!-- 配置js，css等静态文件直接映射到对应的文件夹，不被DispatcherServlet处理 -->
-    <mvc:resources location="/WEB-INF/resources/**" mapping="/resources"/>
+    <!--<mvc:resources mapping="/resources" location="/WEB-INF/resources/**"/>
     <mvc:resources mapping="/javascript/**" location="/static_resources/javascript/"/>
     <mvc:resources mapping="/styles/**" location="/static/css/"/>
-    <mvc:resources mapping="/images/**" location="/static/images/"/>
+    <mvc:resources mapping="/images/**" location="/static/images/"/>-->
 
-    <!-- 配置页面访问地址www.xxx.com/about返回的静态html文件 -->
-    <mvc:resources mapping="/about/**" location="/WEB-INF/html/"/>
     <!-- 走servlet的默认配置，先走默认的web.xml配置的servlet，没有的话才找对应controller -->
     <mvc:default-servlet-handler />
 
