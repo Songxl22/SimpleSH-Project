@@ -33,4 +33,4 @@
       </div>
     </div>
 <script type="text/javascript" src="${baseUrlStatic}/js/common/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="${baseUrlStatic}/js/system/index.js?ver=${version}"></script>
+<script type="text/javascript" charset="UTF-8" src="${baseUrlStatic}/js/system/index.js?ver=${version}"></script>
