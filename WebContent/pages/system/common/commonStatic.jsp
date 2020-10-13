@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8"%>
 <script type="text/javascript" src="${baseUrlStatic}/js/common/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="${baseUrlStatic}/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="${baseUrlStatic}/bootstrap/bootstrap-table/bootstrap-table.min.js"></script>
