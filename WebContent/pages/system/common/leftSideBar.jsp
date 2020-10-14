@@ -19,13 +19,13 @@
 <c:if test="${!empty sysUser}">
 	<div id="lside" class="col-sm-3 col-md-2 sidebar" style="top: 57px!important;">
 		<ul class="nav nav-sidebar menubar">
-			<li class="article active" ><a href="/system//Conference/getConf" target="mainframe">会议管理</a></li>
+			<li class="article active" ><a href="/system/Conference/getConf" target="mainframe">会议管理</a></li>
 			<li class="article" ><a href="/system/dept/getDept?value=dept" target="mainframe">部门管理</a></li>
 			<li class="article" ><a href="/system/role/getRole" target="mainframe">角色管理</a></li>
 			<li class="article" ><a href="/system/Announcement/getAnno" target="mainframe">公告管理</a></li>
 			<li class="article" ><a href="/system/leave/getLeave" target="mainframe">请假管理</a></li>
-			<li class="article" ><a href="/system//Conference/getConf" target="mainframe">用户管理</a></li>
-			<li class="article" ><a href="/system//Conference/getConf" target="mainframe">任务管理</a></li>
+			<li class="article" ><a href="/system/Conference/getConf" target="mainframe">用户管理</a></li>
+			<li class="article" ><a href="/system/Conference/getConf" target="mainframe">任务管理</a></li>
 			<li class="article" ><a href="/system/article" target="mainframe">ECharts</a></li>
 
 	    </ul>
