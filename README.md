@@ -1,4 +1,4 @@
-# QdYh-Project
+# Simple-Project
 练手的项目
 
 基础的Spring + SpringMvc + Hibernate框架搭建  
